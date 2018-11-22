@@ -1,0 +1,15 @@
+/*Vue Tablette*/
+@media only screen and (min-width:768px){
+    .navigation{
+        flex-direction: row;
+        justify-content: space-evenly;
+        background: $menuBackground;
+        img{
+            width: 20%;
+            border-radius: 50%;
+        }
+    }
+    #burger{
+        display: none;
+    }
+}

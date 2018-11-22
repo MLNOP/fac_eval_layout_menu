@@ -1,0 +1,28 @@
+@import 'variables';
+@import 'mediaquery';
+
+img{
+    width: 5%;
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    li {
+        line-height: 2.5;
+        a{
+            display: block;
+            text-decoration: none;
+            list-style: none;
+            color: $title;
+            font-size: 3vw;
+            font-weight: bold;
+            text-transform: uppercase;
+            background: $menuBackground;
+            text-align: center;
+            &:hover {
+                background-color: $darker;
+            }
+        }
+    }
+}
