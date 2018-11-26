@@ -27,7 +27,7 @@
                 <svg class="Icon" >
                     <use xlink:href="#Apple" aria-hidden="true"></use>
                 </svg>
-            <br>accueil</a>
+            <br>pomme</a>
         </li>
     </ul>
 </nav>
