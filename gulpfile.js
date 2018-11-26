@@ -123,13 +123,13 @@ var config       = {
 	"mode": {
 /*		"view": {
 			"dest": ".",
-			"sprite": "sprite_css_pictos.svg",
+			"sprite": "sprite_css_picto.svg",
 			"bust": false
 		},
 */
 		"symbol": {
 			"dest": ".",
-			"sprite": "sprite_symbol_pictos.svg",
+			"sprite": "sprite_symbol_picto.svg",
 		}
 	}
 };

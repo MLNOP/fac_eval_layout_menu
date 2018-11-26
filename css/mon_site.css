@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -53,6 +54,18 @@ table {
 }
 
 /*-------------------------------------------------------------------------*/
+.Icon {
+  /* Permet de redimensionner en changeant la font-size de l’icône */
+  width: 10%;
+  /* Bel alignement visuel des icônes avec le texte */
+  vertical-align: -0.15em;
+  /* fill par défaut = valeur de la propriété couleur de son élément parent */
+  fill: white;
+  /* Les paths et les strokes qui dépassent de la viewBox peuvent apparaître dans IE.
+       Si vous utilisez normalize.css, inutile de l’ajouter. */
+  overflow: hidden;
+}
+
 /*Vue Tablette*/
 @media only screen and (min-width: 768px) {
   .navigation {
@@ -63,6 +76,9 @@ table {
   .navigation img {
     width: 20%;
     border-radius: 50%;
+  }
+  .navigation .Icon {
+    width: 50%;
   }
   #burger {
     display: none;
@@ -79,12 +95,8 @@ img {
   padding: 0;
 }
 
-.navigation .active {
-  background-color: transparent;
-}
-
 .navigation li {
-  line-height: 2;
+  line-height: 1;
   border-style: solid;
   border-width: 2px;
 }
@@ -115,6 +127,9 @@ img {
   .navigation img {
     width: 20%;
     border-radius: 50%;
+  }
+  .navigation .Icon {
+    width: 50%;
   }
   #burger {
     display: none;
