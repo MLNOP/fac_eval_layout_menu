@@ -4,6 +4,10 @@
         flex-direction: row;
         justify-content: space-evenly;
         background: $menuBackground;
+        li{
+            border-style: none;
+            border-width: 0;
+        }
         img{
             width: 20%;
             border-radius: 50%;
