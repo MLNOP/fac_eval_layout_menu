@@ -4,10 +4,14 @@
 img{
     width: 5%;
 }
+
 .navigation{
     display: flex;
     flex-direction: column;
     padding: 0;
+    .active{
+        background-color: transparent;
+    }
     li {
         line-height: 2;
         border-style: solid;

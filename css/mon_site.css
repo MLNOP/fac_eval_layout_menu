@@ -79,6 +79,10 @@ img {
   padding: 0;
 }
 
+.navigation .active {
+  background-color: transparent;
+}
+
 .navigation li {
   line-height: 2;
   border-style: solid;
